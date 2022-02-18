@@ -15,7 +15,7 @@ export const Container = styled.main`
     z-index: -1;
   }
   
-  @media only screen and (max-width: 740px) {
-    padding: 0 4rem;
+  @media only screen and (max-width: 1200px) {
+    padding: 0 2rem;
   }
 `

@@ -24,6 +24,9 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     background-color: var(--black);
     color: var(--white);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
   }
 
   ul, li {
@@ -39,5 +42,13 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
+  }
+  
+  .d-flex-custom {
+    display: flex;
+  }
+  
+  .m-t-0 {
+    margin-top: 0 !important;
   }
 `

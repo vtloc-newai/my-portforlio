@@ -9,13 +9,13 @@ import linkedinIcon from "../../assets/images/LinkedIn-1.png";
 function Hero() {
   return (
     <Container>
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      <Grid item container spacing={2} className="m-t-0">
         <Grid
           item
           container
           direction="row"
           alignItems="center"
-          xs={6}
+          md={6}
         >
           <ScrollAnimation animateIn="fadeInLeft">
             <div className="introduction">
@@ -73,7 +73,7 @@ function Hero() {
           </div>
           </ScrollAnimation>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} className="d-flex-custom image-display">
           <ScrollAnimation animateIn="fadeInRight" delay={1000}>
             <img className="hero-image" src={ blogging } alt="softwareEngineer" />
           </ScrollAnimation>

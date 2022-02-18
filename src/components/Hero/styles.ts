@@ -90,18 +90,31 @@ export const Container = styled.section`
     }
   }
   
-  .hero-image {
-    user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    user-drag: none;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    width: 100%;
+  .image-display {
+    img {
+      width: 100%;
+      height: 100%;
+  
+      &.hero-image {
+        user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-drag: none;
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
     height: 100%;
+
+    .image-display {
+      display: none;
+    }
   }
   
   @keyframes typewriter {
