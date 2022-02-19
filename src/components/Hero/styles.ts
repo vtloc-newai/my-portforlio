@@ -24,8 +24,6 @@ export const Container = styled.section`
     }
     
     .position {
-      margin-top: 0.5rem;
-      
       p {
         color: var(--green);
         font-weight: var(--w_bold);
@@ -51,7 +49,6 @@ export const Container = styled.section`
       font-weight: var(--w_medium);
       line-height: 1.8;
       text-align: justify;
-      margin-top: 1rem;
       
       span {
         font-style: italic;
@@ -62,8 +59,6 @@ export const Container = styled.section`
     }
     
     .contact {
-      margin-top: 1rem;
-      
       p {
         font-weight: var(--w_bold);
         margin-bottom: 2rem;
@@ -75,6 +70,8 @@ export const Container = styled.section`
         display: flex;
         
         li {
+          transition: transform 0.4s ease-in-out;
+          
           &:not(:last-child) {
             margin-right: 1rem;
           }
@@ -85,6 +82,10 @@ export const Container = styled.section`
               height: 5rem;
             }
           }
+          
+          &:hover {
+            transform: translateY(-1rem);
+          }
         }
       }
     }
@@ -94,6 +95,12 @@ export const Container = styled.section`
     img {
       width: 100%;
       height: 100%;
+      background: rgba( 255, 255, 255, 0.225 );
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 14px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
   
       &.hero-image {
         user-select: none;

@@ -9,7 +9,7 @@ import linkedinIcon from "../../assets/images/LinkedIn-1.png";
 function Hero() {
   return (
     <Container>
-      <Grid item container spacing={2} className="m-t-0">
+      <Grid item container spacing={4} className="m-t-0">
         <Grid
           item
           container
@@ -21,12 +21,12 @@ function Hero() {
             <div className="introduction">
             <div className="hello">Hello 👋, I'm</div>
             <div className="name">Kelvin Vo</div>
-            <div className="position">
+            <div className="position m-t-2">
               <p className="anim-typewriter">
                 Full Stack Developer
               </p>
             </div>
-            <div className="description">
+            <div className="description m-t-4">
               With the knowledge and techniques I have
               learned from my projects and studies, I hope
               to become a web application developer as
@@ -38,7 +38,7 @@ function Hero() {
                 Now I'm a freelance Web Developer with 2 years of experience.
               </span>
             </div>
-            <div className="contact">
+            <div className="contact m-t-4">
               <p>Contact me</p>
               <ul>
                 <li>
@@ -73,7 +73,7 @@ function Hero() {
           </div>
           </ScrollAnimation>
         </Grid>
-        <Grid item md={6} className="d-flex-custom image-display">
+        <Grid item md={6} className="d-flex justify-content-center image-display">
           <ScrollAnimation animateIn="fadeInRight" delay={1000}>
             <img className="hero-image" src={ blogging } alt="softwareEngineer" />
           </ScrollAnimation>

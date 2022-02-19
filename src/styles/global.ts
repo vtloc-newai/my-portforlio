@@ -43,12 +43,4 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
-  
-  .d-flex-custom {
-    display: flex;
-  }
-  
-  .m-t-0 {
-    margin-top: 0 !important;
-  }
 `
