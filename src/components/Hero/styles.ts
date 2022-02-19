@@ -99,7 +99,6 @@ export const Container = styled.section`
       backdrop-filter: blur( 4px );
       -webkit-backdrop-filter: blur( 4px );
       border-radius: 14px;
-      border: 1px solid rgba( 255, 255, 255, 0.18 );
       box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
   
       &.hero-image {
