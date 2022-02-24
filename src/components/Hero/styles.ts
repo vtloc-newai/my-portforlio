@@ -16,6 +16,11 @@ export const Container = styled.section`
     .hello {
       font-size: calc(var(--font-base) + 1.25rem);
       font-weight: var(--w_medium);
+
+      span {
+        display: inline-block;
+        animation: wavey 1.5s infinite;
+      }
     }
     
     .name {
@@ -138,6 +143,33 @@ export const Container = styled.section`
     }
     to {
       border-right-color: transparent;
+    }
+  }
+
+  @keyframes wavey {
+    0% {
+      transform: rotate(0.0deg);
+    }
+    15% {
+      transform: rotate(14.0deg);
+    }
+    30% {
+      transform: rotate(-8.0deg);
+    }
+    40% {
+      transform: rotate(14.0deg);
+    }
+    50% {
+      transform: rotate(-4.0deg);
+    }
+    60% {
+      transform: rotate(10.0deg);
+    }
+    70% {
+      transform: rotate(0.0deg);
+    }
+    100% {
+      transform: rotate(0.0deg);
     }
   }
 `

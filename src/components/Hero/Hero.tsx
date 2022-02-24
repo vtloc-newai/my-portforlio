@@ -19,7 +19,7 @@ function Hero() {
         >
           <ScrollAnimation animateIn="fadeInLeft">
             <div className="introduction">
-            <div className="hello">Hello 👋, I'm</div>
+            <div className="hello">Hello <span>👋</span>, I'm</div>
             <div className="name">Kelvin Vo</div>
             <div className="position m-t-2">
               <p className="anim-typewriter">

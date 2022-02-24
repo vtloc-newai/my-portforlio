@@ -4,6 +4,7 @@ import { GlobalFlex } from './styles/flex';
 import { GlobalSpacing } from './styles/spacing';
 import { GlobalReset } from './styles/reset';
 import Main from './components/Main/Main';
+// import Cursor from './components/Cursor/Cursor';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <GlobalFlex />
       <GlobalSpacing />
       <GlobalReset />
+      {/*<Cursor />*/}
       <Main/>
     </>
   );

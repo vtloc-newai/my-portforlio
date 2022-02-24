@@ -15,6 +15,7 @@
     "@types/react-animate-on-scroll": "^2.1.5",
     "@types/react-dom": "^17.0.9",
     "@types/styled-components": "^5.1.23",
+    "custom-cursor-react": "^1.0.5",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-audio-player": "^0.17.0",
@@ -23,7 +24,8 @@
     "react-tsparticles": "^1.41.2",
     "styled-components": "^5.3.3",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "zustand": "^3.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
