@@ -23,7 +23,7 @@ function Hero() {
             <div className="name">Kelvin Vo</div>
             <div className="position m-t-2">
               <p className="anim-typewriter">
-                Full Stack Developer
+                Web Developer
               </p>
             </div>
             <div className="description m-t-4">
@@ -35,7 +35,7 @@ function Hero() {
               learn new skills and gain experience from
               various activities.&nbsp;
               <span>
-                Now I'm a freelance Web Developer with 2 years of experience.
+                Now I'm a Web Developer with nearly 2 years of experience.
               </span>
             </div>
             <div className="contact m-t-4">
