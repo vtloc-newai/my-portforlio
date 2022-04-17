@@ -62,6 +62,39 @@ export const Container = styled.section`
         letter-spacing: 0.125rem;
       }
     }
+
+    .framework {
+      font-weight: var(--w_medium);
+      line-height: 1.8;
+      text-align: justify;
+
+      ul {
+        li {
+          span {
+            font-weight: var(--w_bold);
+            color: var(--green);
+          }
+
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+
+    .goals {
+      nav {
+        margin-top: 1rem;
+
+        ol {  
+          li {
+            &:not(:last-child) {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
     
     .contact {
       p {
@@ -100,11 +133,6 @@ export const Container = styled.section`
     img {
       width: 100%;
       height: 100%;
-      background: rgba( 255, 255, 255, 0.225 );
-      backdrop-filter: blur( 4px );
-      -webkit-backdrop-filter: blur( 4px );
-      border-radius: 14px;
-      box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
   
       &.hero-image {
         user-select: none;

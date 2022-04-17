@@ -20,10 +20,10 @@ function Hero() {
           <ScrollAnimation animateIn="fadeInLeft">
             <div className="introduction">
             <div className="hello">Hello <span>👋</span>, I'm</div>
-            <div className="name">Kelvin Vo</div>
+            <div className="name">Thanh Loc Vo</div>
             <div className="position m-t-2">
               <p className="anim-typewriter">
-                Web Developer
+                Front-end Developer
               </p>
             </div>
             <div className="description m-t-4">
@@ -35,8 +35,36 @@ function Hero() {
               learn new skills and gain experience from
               various activities.&nbsp;
               <span>
-                Now I'm a Web Developer with nearly 2 years of experience.
+                Now I'm a Front-end Developer with nearly 2 years of experience.
               </span>
+            </div>
+            <br />
+            <div className="framework">
+              <ul>
+                <li>
+                  <span>Main Framework</span>: Vue.js, Nuxt.js, Vuetify, Bootstrap, Tailwind, SCSS.
+                </li>
+                <li>
+                  <span>Framework being studied</span>: React, MUI.
+                </li>
+              </ul>
+            </div>
+            <br />
+            <div className="goals">
+              I have 3 orientations and long-term goals:
+              <nav>
+                <ol>
+                  <li>
+                    (1). Become a Full-Stack Developer with full knowledge and solid experience to apply and develop the best products.
+                  </li>
+                  <li>
+                    (2). Product development on smartphone platform so I hope I have the opportunity to become Mobile Developer.
+                  </li>
+                  <li>
+                    (3). Operate and lead a development team of Web Apps and Mobile Apps.
+                  </li>
+                </ol>
+              </nav>
             </div>
             <div className="contact m-t-4">
               <p>Contact me</p>
